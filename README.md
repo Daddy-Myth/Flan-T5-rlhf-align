@@ -1,2 +1,2 @@
-# flan-t5-rlhf-align
-Aligning FLAN-T5 with Reinforcement Learning from Human Feedback (RLHF) for Neutral, Grammatically Correct News Summaries
+# Aligning FLAN-T5 with Reinforcement Learning from Human Feedback (RLHF) for Neutral, Grammatically Correct News Summaries
+This project fine-tunes the FLAN-T5 model using PPO-based RLHF to generate summaries that are both grammatically correct and sentiment-neutral. The training loop includes CoLA-based grammar scoring and sentiment analysis as reward signals. Evaluation is done on a real-world news dataset, with tools like W&B and Hugging Face Hub for logging and model versioning.
